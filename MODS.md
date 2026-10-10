@@ -32,7 +32,7 @@ Meteor Client and Baritone are bundled in the pack (see `NOTICE.md`).
 | [Entity Texture Features](https://modrinth.com/project/BVzZfTc1) | 7.2.5-fabric-26.2 |
 | [EntityCulling](https://modrinth.com/project/NNAgCjsB) | 1.11.3 |
 | [Fabric API](https://modrinth.com/project/P7dR8mSH) | 0.161.0+26.2 |
-| [Fabric Language Kotlin](https://modrinth.com/project/Ha28R6CL) | 1.14.1+kotlin.2.4.20 |
+| [Fabric Language Kotlin](https://modrinth.com/project/Ha28R6CL) | 1.14.2+kotlin.2.4.21 |
 | [Fast IP Ping](https://modrinth.com/project/9mtu0sUO) | v1.0.12-mc26.2 |
 | [FastQuit](https://modrinth.com/project/x1hIzbuY) | 3.1.5+mc26.2 |
 | [FerriteCore](https://modrinth.com/project/uXXizFIs) | 9.0.0-fabric |
@@ -60,9 +60,9 @@ Meteor Client and Baritone are bundled in the pack (see `NOTICE.md`).
 | [OptiGUI](https://modrinth.com/project/JuksLGBQ) | 2.3.0-beta.10+26.2 |
 | [Packet Fixer](https://modrinth.com/project/c7m1mi73) | 3.3.6 |
 | [Paginated Advancements & Custom Frames](https://modrinth.com/project/pJogNFap) | 2.8.0+26.2 |
-| [Particle Rain](https://modrinth.com/project/nrikgvxm) | v4.0.1+26.2-fabric |
+| [Particle Rain](https://modrinth.com/project/nrikgvxm) | v4.0.2+26.2-fabric |
 | [Pistorder](https://modrinth.com/project/lpin1bEg) | v1.6.15-mc26.2 |
-| [Polytone](https://modrinth.com/project/3qAYkBMB) | 26.2-6.8.5 |
+| [Polytone](https://modrinth.com/project/3qAYkBMB) | 26.2-6.8.6 |
 | [Puzzle](https://modrinth.com/project/3IuO68q1) | 2.3.1+26.2-fabric |
 | [redstone-multimeter](https://modrinth.com/project/X6YTb3G1) | mc26.2-1.17.0 |
 | [Reese's Sodium Options](https://modrinth.com/project/Bh37bMuy) | mc26.2-2.2.3+fabric |

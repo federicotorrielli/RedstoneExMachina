@@ -78,6 +78,7 @@ The pack is maintained as a Prism Launcher instance and exported with the tools 
 | Tool | Purpose |
 | --- | --- |
 | `export_pack.py <game dir> <repo dir>` | Writes `pack/modrinth.index.json`, `pack/overrides/`, `MODS.md` and `dist/RedstoneExMachina-<version>.mrpack` (reproducible). |
+| `update_mods.py <game dir> <backup dir> <name>...` | Updates Prism-tracked mods to their newest Modrinth release, checking every hash and keeping the old files. |
 | `install_mrpack.py <pack> <dir>` | Installs a `.mrpack` like a launcher, verifying every download. |
 | `hotkeys.py <html> <credits json> ... <instance.cfg>` | Single source for the version and the hotkey table. Builds the in-game menu, the HTML sheet and the title screen version. |
 | `make_ui_pack.py <out.zip> <block textures dir>` | Builds the RedstoneExMachina UI resource pack. |

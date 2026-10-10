@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Updated Fabric Language Kotlin 1.14.2, Particle Rain 4.0.2 and Polytone 26.2-6.8.6.
+- New `tools/update_mods.py`.
+
 ## 0.1.2 (10 October 2026)
 
 - MiniHUD: yaw and pitch added; server TPS, world time and the duplicate sub-chunk line removed.
