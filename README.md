@@ -4,88 +4,69 @@
 
 # RedstoneExMachina
 
-**A Minecraft 26.2 Fabric modpack for technical redstone players.**
+A Minecraft 26.2 modpack for technical players.
 
-Fast rendering, every technical tool set up, hotkeys without collisions and an in-game hotkey menu.
-
-[Download the latest .mrpack](https://github.com/federicotorrielli/RedstoneExMachina/releases/latest) · [Mod list](MODS.md) · [Hotkeys](https://federicotorrielli.me/RedstoneExMachina/hotkeys.html) · [Changelog](CHANGELOG.md)
+[Download](https://github.com/federicotorrielli/RedstoneExMachina/releases/latest) · [Mod list](MODS.md) · [Hotkeys](https://federicotorrielli.me/RedstoneExMachina/hotkeys.html) · [Changelog](CHANGELOG.md)
 
 </div>
 
+RedstoneExMachina runs on Fabric. It is based on [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized), which keeps the game fast. The pack adds the tools that redstone builders use every day. Their hotkeys are arranged so that no two of them clash.
+
 ## What you get
 
-- **Circuit analysis.** Redstone Multimeter for event timelines, G4mespeed for tick rate control, Chunk Debug for loaded and ticking chunks, Pistorder for piston movement order, Carpet and Carpet TIS Addition for profiling and microtiming logs.
-- **Building.** Litematica with easy place, Tweakeroo with flexible and accurate placement, Technical Utilities, Item Scroller, Chest Tracker.
-- **Information on screen.** MiniHUD shows FPS, entities, block position, position inside the sub-chunk, facing, yaw and pitch, light, the targeted block, its block states and comparator output. TweakerMore's info view shows comparator levels, hopper cooldowns and redstone dust update order on the block you look at.
-- **Performance.** Sodium, Lithium, ImmediatelyFast, FerriteCore, ModernFix, Voxy for distant terrain and the Fabulously Optimized base. The renderer versions (Sodium 0.9.1, Iris 1.11.2) are pinned because newer ones break terrain with Photon.
-- **Looks.** Photon shaders (off by default, press `K`), Redstone Tweaks in its Computational preset, re-OCD, and a red RedstoneExMachina interface.
-- **Hotkeys that do not fight.** Ten collisions between mods were fixed. Each MaLiLib mod has its own leader key, and a menu in the pause screen lists every key.
-
-## Install
-
-The pack uses the Modrinth format (`.mrpack`). The launcher downloads every mod from Modrinth and checks its hash.
-
-1. Download `RedstoneExMachina-<version>.mrpack` from the [latest release](https://github.com/federicotorrielli/RedstoneExMachina/releases/latest).
-2. Import it:
-   - **Prism Launcher:** *Add Instance* → *Import* → choose the file.
-   - **Modrinth App:** *Library* → *+* → *From file*.
-   - Other launchers that read `.mrpack` files work the same way.
-3. Give the instance about 6 to 8 GB of memory and use Java 25.
-
-On first launch you see the RedstoneExMachina welcome screen. Your settings are created from `config/modpack_defaults` once; later updates never overwrite them.
-
-## Hotkeys
-
-Open the pause menu and click **⚡ Press here for hotkeys**. The menu has seven pages (circuit timing, block info, placing blocks, schematics, HUD and view, inventories, other), with an item icon for every key.
-
-<p align="center">
-  <img src="docs/screenshots/hotkey-menu.png" alt="Hotkey menu" width="49%">
-  <img src="docs/screenshots/hotkey-page.png" alt="Circuit timing hotkeys" width="49%">
-</p>
-
-"H+C" means: hold H, then press C. The first key names the mod:
-
-| Leader | Mod | Settings |
-| --- | --- | --- |
-| `H` | MiniHUD | `H+C` |
-| `M` | Litematica | `M+C` |
-| `X` | Tweakeroo | `X+C` |
-| `N` | TweakerMore | `N+C` |
-| `I` | Item Scroller | `I+C` |
-| `J` | Technical Utilities | `J+C` |
-| `A` | every MaLiLib mod in one list | `A+C` |
-
-A few keys used most often: `F6` adds a multimeter meter, `F7` shows the timeline, `G` changes the tick rate, `N+I` turns on the block info view, `M+E` toggles easy place, `X+F` and `X+A` toggle flexible and accurate placement. The full list is in [docs/hotkeys.html](https://federicotorrielli.me/RedstoneExMachina/hotkeys.html).
+- **Circuits.** Redstone Multimeter records a timeline of redstone events. G4mespeed changes the tick rate. Pistorder shows the order in which pistons move blocks. Chunk Debug shows which chunks are loaded. Carpet and Carpet TIS Addition add profiling and timing logs.
+- **Building.** Litematica loads schematics and can place their blocks for you. Tweakeroo adds flexible and accurate block placement. Item Scroller and Chest Tracker help with inventories and storage.
+- **Information on screen.** MiniHUD shows your position, your position inside the chunk, your facing, yaw and pitch. It also shows the block you look at, with its states and its comparator output. TweakerMore writes comparator levels and hopper cooldowns directly on the blocks.
+- **Look.** Photon shaders (press `K`), Redstone Tweaks and a red interface with redstone block buttons.
 
 <p align="center"><img src="docs/screenshots/hud.png" alt="MiniHUD and minimap" width="720"></p>
 
-## Multiplayer
+## Install
 
-Most tools work on any server. Accurate data needs server support: MiniHUD and Litematica read server data through Servux, and Redstone Multimeter, Chunk Debug and Carpet need their server mods. For your own Fabric 26.2 server, install Fabric API, Carpet, Carpet TIS Addition, Redstone Multimeter, Chunk Debug and Servux.
+1. Download the `.mrpack` file from the [latest release](https://github.com/federicotorrielli/RedstoneExMachina/releases/latest).
+2. Import the file. In Prism Launcher, choose *Add Instance*, then *Import*. In the Modrinth App, choose *Library*, then *+*, then *From file*.
+3. Start the game with Java 25 and about 8 GB of memory.
 
-**Meteor Client and Baritone are included.** Many public servers ban these clients. Disable them in your launcher before you join a server with rules against them (Prism: *Edit* → *Mods*, untick `meteor-client` and `baritone-meteor`).
+The launcher downloads every mod from Modrinth and checks each file. The pack creates your settings only on the first start. A new version of the pack keeps the settings that you changed.
 
-## Known issues
+## Hotkeys
 
-- **Every quit writes a crash report.** Baritone's cache threads stay alive after the game closes, so Minecraft's shutdown watchdog writes a "Client shutdown from post-main" report. Your world is saved first, so nothing is lost. Disabling Baritone removes the reports.
-- **Item icons can vanish after toggling shaders.** This is [Iris issue 3212](https://github.com/IrisShaders/Iris/issues/3212). Change *GUI Scale* and change it back, or choose shaders before you join a world.
-- The welcome screen text is English only. Other languages show the Fabulously Optimized text.
+In the game, open the pause menu and click **Press here for hotkeys**. A menu opens with seven pages: circuit timing, block info, placing blocks, schematics, HUD and view, inventories, other. Every hotkey has its own item icon.
 
-## Building from source
+<p align="center">
+  <img src="docs/screenshots/hotkey-menu.png" alt="Hotkey menu" width="49%">
+  <img src="docs/screenshots/hotkey-page.png" alt="Circuit timing page" width="49%">
+</p>
 
-The pack is maintained as a Prism Launcher instance and exported with the tools in `tools/`:
+"H+C" means: keep H pressed, then press C. The first key names the mod. C opens the settings of that mod.
 
-| Tool | Purpose |
+| Key | Mod |
 | --- | --- |
-| `export_pack.py <game dir> <repo dir>` | Writes `pack/modrinth.index.json`, `pack/overrides/`, `MODS.md` and `dist/RedstoneExMachina-<version>.mrpack` (reproducible). |
-| `update_mods.py <game dir> <backup dir> <name>...` | Updates Prism-tracked mods to their newest Modrinth release, checking every hash and keeping the old files. |
-| `install_mrpack.py <pack> <dir>` | Installs a `.mrpack` like a launcher, verifying every download. |
-| `hotkeys.py <html> <credits json> ... <instance.cfg>` | Single source for the version and the hotkey table. Builds the in-game menu, the HTML sheet and the title screen version. |
-| `make_ui_pack.py <out.zip> <block textures dir>` | Builds the RedstoneExMachina UI resource pack. |
-| `health_check.py <game dir> [--online]` | Checks Prism tracking files and hashes, config syntax, resource pack formats, key collisions, logs, crash reports and Modrinth updates. |
+| `H` | MiniHUD |
+| `M` | Litematica |
+| `X` | Tweakeroo |
+| `N` | TweakerMore |
+| `I` | Item Scroller |
+| `J` | Technical Utilities |
+| `A` | all of them in one list |
+
+The [full list of hotkeys](https://federicotorrielli.me/RedstoneExMachina/hotkeys.html) is also online.
+
+## Building the pack
+
+The pack is kept as a Prism Launcher instance. The scripts in `tools/` convert that instance into this repository and into the `.mrpack` file.
+
+| Script | What it does |
+| --- | --- |
+| `export_pack.py` | Writes the mod list, the overrides and the `.mrpack` file. |
+| `install_mrpack.py` | Installs a `.mrpack` file into an empty folder and checks every download. |
+| `update_mods.py` | Updates mods to their newest Modrinth version. |
+| `hotkeys.py` | Stores the pack version and the hotkey table. It builds the hotkey menu and the hotkey page. |
+| `make_ui_pack.py` | Builds the red interface resource pack. |
+| `health_check.py` | Checks files, configs, hotkeys, logs and available updates. |
 
 ## Credits and license
 
-RedstoneExMachina is based on [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized). All mods belong to their authors; see [MODS.md](MODS.md) and [NOTICE.md](NOTICE.md). The pack's own configuration, tools and UI pack are licensed under the [EUPL-1.2](LICENSE).
+All mods belong to their authors. [MODS.md](MODS.md) lists them. [NOTICE.md](NOTICE.md) gives the details for the files that come with the pack. The configuration, the scripts and the interface pack are released under the [EUPL-1.2](LICENSE).
 
-Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.
+RedstoneExMachina is not an official Minecraft product. It is not approved by or associated with Mojang or Microsoft.
