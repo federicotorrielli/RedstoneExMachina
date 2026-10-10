@@ -9,7 +9,7 @@ import json
 import re
 import sys
 
-VERSION = '0.1.2'
+VERSION = '0.1.3'
 RED = '#FF3333'
 
 # (title, [(keys, description, row icon)]). In keys, '+' joins keys pressed together

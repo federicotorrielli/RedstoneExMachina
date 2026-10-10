@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.3 (10 October 2026)
 
 - Updated Fabric Language Kotlin 1.14.2, Particle Rain 4.0.2 and Polytone 26.2-6.8.6.
 - New `tools/update_mods.py`.

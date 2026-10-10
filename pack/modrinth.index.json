@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "0.1.2",
+  "versionId": "0.1.3",
   "name": "RedstoneExMachina",
   "summary": "Fabric 26.2 pack for technical redstone players, based on Fabulously Optimized.",
   "files": [
