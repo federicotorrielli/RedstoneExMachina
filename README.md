@@ -8,7 +8,7 @@
 
 Fast rendering, every technical tool set up, hotkeys without collisions and an in-game hotkey menu.
 
-[Download the latest .mrpack](https://github.com/federicotorrielli/RedstoneExMachina/releases/latest) · [Mod list](MODS.md) · [Hotkeys](https://federicotorrielli.github.io/RedstoneExMachina/hotkeys.html) · [Changelog](CHANGELOG.md)
+[Download the latest .mrpack](https://github.com/federicotorrielli/RedstoneExMachina/releases/latest) · [Mod list](MODS.md) · [Hotkeys](https://federicotorrielli.me/RedstoneExMachina/hotkeys.html) · [Changelog](CHANGELOG.md)
 
 </div>
 
@@ -55,7 +55,7 @@ Open the pause menu and click **⚡ Press here for hotkeys**. The menu has seven
 | `J` | Technical Utilities | `J+C` |
 | `A` | every MaLiLib mod in one list | `A+C` |
 
-A few keys used most often: `F6` adds a multimeter meter, `F7` shows the timeline, `G` changes the tick rate, `N+I` turns on the block info view, `M+E` toggles easy place, `X+F` and `X+A` toggle flexible and accurate placement. The full list is in [docs/hotkeys.html](https://federicotorrielli.github.io/RedstoneExMachina/hotkeys.html).
+A few keys used most often: `F6` adds a multimeter meter, `F7` shows the timeline, `G` changes the tick rate, `N+I` turns on the block info view, `M+E` toggles easy place, `X+F` and `X+A` toggle flexible and accurate placement. The full list is in [docs/hotkeys.html](https://federicotorrielli.me/RedstoneExMachina/hotkeys.html).
 
 <p align="center"><img src="docs/screenshots/hud.png" alt="MiniHUD and minimap" width="720"></p>
 
