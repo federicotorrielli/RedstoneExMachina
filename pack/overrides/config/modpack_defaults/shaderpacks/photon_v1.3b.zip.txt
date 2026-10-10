@@ -1,0 +1,8 @@
+# Current Photon options plus the valid ambient occlusion selector.
+ENTITY_SHADOWS=false
+ENVIRONMENT_REFLECTIONS=false
+INFO=1
+SHADOW_COLOR=false
+SHADOW_SSRT=false
+WATER_PARALLAX=false
+SHADER_AO=SHADER_AO_NONE

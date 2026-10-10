@@ -1,0 +1,1579 @@
+{
+  "main_menu": {
+    "bottom_right": [
+      {
+        "text": "RedstoneExMachina ",
+        "color": "#FF3333",
+        "bold": true,
+        "extra": [
+          {
+            "text": "v0.1.2",
+            "color": "gray",
+            "bold": false
+          }
+        ],
+        "hover_event": {
+          "action": "show_text",
+          "value": "Based on Fabulously Optimized 14.1.0. Configured for technical redstone building."
+        }
+      }
+    ]
+  },
+  "pause_menu": {
+    "bottom_right": [
+      {
+        "translate": "fo.pauseMenu.renice-shot",
+        "fallback": "Take 4K screenshots with F9",
+        "color": "dark_gray",
+        "strikethrough": false
+      },
+      {
+        "text": "⚡ Press here for hotkeys",
+        "color": "#FF3333",
+        "bold": true,
+        "click_event": {
+          "action": "show_dialog",
+          "dialog": {
+            "type": "minecraft:dialog_list",
+            "title": [
+              {
+                "text": "REDSTONE EX MACHINA",
+                "color": "#FF3333",
+                "bold": true
+              },
+              {
+                "text": "  ·  Hotkeys",
+                "color": "gray"
+              }
+            ],
+            "body": [
+              {
+                "type": "minecraft:item",
+                "item": {
+                  "id": "minecraft:redstone"
+                },
+                "show_decoration": false,
+                "show_tooltip": false,
+                "width": 32,
+                "height": 32
+              },
+              {
+                "type": "minecraft:plain_message",
+                "contents": {
+                  "text": "\"H+C\" means: hold H, then press C. The first key names the mod: H MiniHUD, M Litematica, X Tweakeroo, N TweakerMore, I Item Scroller, J Technical Utilities. Other keys can be searched in Options → Controls.",
+                  "color": "gray"
+                },
+                "width": 360
+              }
+            ],
+            "dialogs": [
+              {
+                "type": "minecraft:notice",
+                "title": [
+                  {
+                    "text": "REDSTONE EX MACHINA",
+                    "color": "#FF3333",
+                    "bold": true
+                  },
+                  {
+                    "text": "  ·  Circuit timing",
+                    "color": "gray"
+                  }
+                ],
+                "external_title": {
+                  "text": "Circuit timing",
+                  "color": "white"
+                },
+                "body": [
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:target"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "F6",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Add or remove a multimeter meter on the targeted block",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:clock"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "F7",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Show or hide the multimeter timeline",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:repeater"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "F8",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Multimeter screen",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:comparator"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "F10",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Multimeter settings",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:redstone_torch"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": ", / .",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Step the multimeter timeline back / forward",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:compass"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Left Alt+Scroll",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Scroll the multimeter timeline",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:daylight_detector"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "G",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  G4mespeed: change the tick rate",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:filled_map"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "F12",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Chunk Debug map (loaded and ticking chunks)",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:piston"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Empty hand click on a piston",
+                            "color": "gray",
+                            "italic": true
+                          },
+                          {
+                            "text": "  Pistorder: show block movement order",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:sticky_piston"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Delete",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Pistorder: clear the displays",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  }
+                ],
+                "action": {
+                  "label": "Close",
+                  "width": 150
+                }
+              },
+              {
+                "type": "minecraft:notice",
+                "title": [
+                  {
+                    "text": "REDSTONE EX MACHINA",
+                    "color": "#FF3333",
+                    "bold": true
+                  },
+                  {
+                    "text": "  ·  Block info",
+                    "color": "gray"
+                  }
+                ],
+                "external_title": {
+                  "text": "Block info",
+                  "color": "white"
+                },
+                "body": [
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:comparator"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "N+I",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Info view on / off: comparator level and hopper cooldown of the block you look at",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:redstone"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Right Alt",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Hold: show redstone dust update order",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:slime_block"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "N+B",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Block event throttler on / off (huge piston builds)",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:writable_book"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "N+C",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  TweakerMore settings",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  }
+                ],
+                "action": {
+                  "label": "Close",
+                  "width": 150
+                }
+              },
+              {
+                "type": "minecraft:notice",
+                "title": [
+                  {
+                    "text": "REDSTONE EX MACHINA",
+                    "color": "#FF3333",
+                    "bold": true
+                  },
+                  {
+                    "text": "  ·  Placing blocks",
+                    "color": "gray"
+                  }
+                ],
+                "external_title": {
+                  "text": "Placing blocks",
+                  "color": "white"
+                },
+                "body": [
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:observer"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "X+F",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Flexible block placement on / off",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:dispenser"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "X+A",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Accurate block placement on / off",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:dropper"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Mouse 4 / Mouse 5",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Hold while placing: rotate / offset the block",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:scaffolding"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Z+1…6",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Placement restriction: plane, face, column, line, diagonal, layer",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:bundle"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "X+R",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Hand restock on / off",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:chest"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Left Alt+1…3",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Swap the hotbar with inventory row 1, 2 or 3",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:writable_book"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "X+C",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Tweakeroo settings",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  }
+                ],
+                "action": {
+                  "label": "Close",
+                  "width": 150
+                }
+              },
+              {
+                "type": "minecraft:notice",
+                "title": [
+                  {
+                    "text": "REDSTONE EX MACHINA",
+                    "color": "#FF3333",
+                    "bold": true
+                  },
+                  {
+                    "text": "  ·  Schematics",
+                    "color": "gray"
+                  }
+                ],
+                "external_title": {
+                  "text": "Schematics",
+                  "color": "white"
+                },
+                "body": [
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:structure_block"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "M",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Litematica main menu",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:stone"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "M+E",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Easy place on / off",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:map"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "M+P",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Schematic placements",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:paper"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "M+L",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Material list",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:spyglass"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "M+V",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Schematic verifier",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:glass"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "M+G / M+R",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Toggle schematic rendering / all rendering",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:ladder"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Page Up / Page Down",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Next / previous render layer",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:name_tag"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "I",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Info overlay of the targeted schematic block",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:stick"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "M+T",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Selection tool on / off",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:writable_book"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Ctrl+Alt+S",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Save the area selection as a schematic",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:barrel"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "J+C",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Technical Utilities settings (schematic container contents)",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  }
+                ],
+                "action": {
+                  "label": "Close",
+                  "width": 150
+                }
+              },
+              {
+                "type": "minecraft:notice",
+                "title": [
+                  {
+                    "text": "REDSTONE EX MACHINA",
+                    "color": "#FF3333",
+                    "bold": true
+                  },
+                  {
+                    "text": "  ·  HUD and view",
+                    "color": "gray"
+                  }
+                ],
+                "external_title": {
+                  "text": "HUD and view",
+                  "color": "white"
+                },
+                "body": [
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:oak_sign"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "H",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  MiniHUD info lines on / off",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:torch"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "H+L",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Light level overlay",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:slime_ball"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "H+C",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  MiniHUD settings: slime chunks, spawn chunks, random ticks and more",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:grass_block"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "F3+G",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Chunk borders",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:armor_stand"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "F3+B",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Hitboxes",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:spyglass"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "C",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Zoom",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:ender_eye"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "K",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Shaders on / off (if item icons vanish, change GUI Scale and back)",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:compass"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Y / B / U",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Minimap settings / new waypoint / waypoint list",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  }
+                ],
+                "action": {
+                  "label": "Close",
+                  "width": 150
+                }
+              },
+              {
+                "type": "minecraft:notice",
+                "title": [
+                  {
+                    "text": "REDSTONE EX MACHINA",
+                    "color": "#FF3333",
+                    "bold": true
+                  },
+                  {
+                    "text": "  ·  Inventories",
+                    "color": "gray"
+                  }
+                ],
+                "external_title": {
+                  "text": "Inventories",
+                  "color": "white"
+                },
+                "body": [
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:chest"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Left Alt+R",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Sort the inventory under the cursor",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:hopper"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Shift+Drag",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Move stacks",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:hopper_minecart"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Alt+Click",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Move all matching items",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:dropper"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Ctrl+Shift+Q",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Drop all matching items",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:ender_chest"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Insert",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Chest Tracker: remembered containers",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:compass"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "End",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Find containers holding the hovered item",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:crafting_table"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "R / U",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  JEI: recipe / uses of the hovered item",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:writable_book"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "I+C",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Item Scroller settings",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  }
+                ],
+                "action": {
+                  "label": "Close",
+                  "width": 150
+                }
+              },
+              {
+                "type": "minecraft:notice",
+                "title": [
+                  {
+                    "text": "REDSTONE EX MACHINA",
+                    "color": "#FF3333",
+                    "bold": true
+                  },
+                  {
+                    "text": "  ·  Other",
+                    "color": "gray"
+                  }
+                ],
+                "external_title": {
+                  "text": "Other",
+                  "color": "white"
+                },
+                "body": [
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:bookshelf"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "A+C",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  All technical mod settings in one list",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:painting"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "F9",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  4K screenshot",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:item_frame"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "F2",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Screenshot",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:command_block"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "Right Shift",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Meteor Client menu",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "item": {
+                      "id": "minecraft:ender_pearl"
+                    },
+                    "show_decoration": false,
+                    "show_tooltip": false,
+                    "description": {
+                      "contents": {
+                        "text": "",
+                        "extra": [
+                          {
+                            "text": "V",
+                            "color": "#FF6A4D",
+                            "bold": true
+                          },
+                          {
+                            "text": "  Meteor freecam",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "width": 380
+                    }
+                  }
+                ],
+                "action": {
+                  "label": "Close",
+                  "width": 150
+                }
+              }
+            ],
+            "columns": 2,
+            "button_width": 160,
+            "exit_action": {
+              "label": "Close",
+              "width": 160
+            }
+          }
+        },
+        "hover_event": {
+          "action": "show_text",
+          "value": "Open the RedstoneExMachina hotkey menu"
+        }
+      }
+    ]
+  }
+}

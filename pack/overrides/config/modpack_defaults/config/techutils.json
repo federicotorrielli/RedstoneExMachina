@@ -1,0 +1,21 @@
+{
+  "litematica": {
+    "inventoryScreenOverlay": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "verifyItemComponents": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    }
+  },
+  "misc": {
+    "openConfig": {
+      "keys": "J,C"
+    }
+  }
+}
