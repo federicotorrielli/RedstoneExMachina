@@ -42,7 +42,7 @@ Meteor Client and Baritone are bundled in the pack (see `NOTICE.md`).
 | [Iris Shaders](https://modrinth.com/project/YL57xq9U) | 1.11.2+26.2-fabric |
 | [item-scroller](https://modrinth.com/project/JygyCSA4) | 0.32.2 |
 | [Ixeris](https://modrinth.com/project/p8RJPJIC) | 4.6.8+26.2-fabric |
-| [Just Enough Items](https://modrinth.com/project/u6dRKJwZ) | 30.39.0.233 |
+| [Just Enough Items](https://modrinth.com/project/u6dRKJwZ) | 30.42.0.236 |
 | [LambDynamicLights - Dynamic Lights](https://modrinth.com/project/yBW8D80W) | 4.12.4+26.2 |
 | [Language Reload](https://modrinth.com/project/uLbm7CG6) | 1.7.8+26.2 |
 | [libjf](https://modrinth.com/project/WKwQAwke) | 26.2.2 |
@@ -80,7 +80,7 @@ Meteor Client and Baritone are bundled in the pack (see `NOTICE.md`).
 | [Tweakeroo](https://modrinth.com/project/t5wuYk45) | 0.29.5 |
 | [voxy](https://modrinth.com/project/fxxUqruK) | 0.2.19-beta |
 | [Voxy Extra](https://modrinth.com/project/znQnhrkQ) | 0.2.6 |
-| [Voxy Server Side](https://modrinth.com/project/84zcagOb) | 0.16.0 |
+| [Voxy Server Side](https://modrinth.com/project/84zcagOb) | 0.18.0 |
 | [Xaero's Minimap](https://modrinth.com/project/1bokaNcj) | fabric-26.2-26.6.0 |
 | [YetAnotherConfigLib](https://modrinth.com/project/1eAoo2KR) | 3.9.7+26.2-fabric |
 | [Zoomify](https://modrinth.com/project/w7ThoJFB) | 2.17.0+mc26.2 |
@@ -93,7 +93,7 @@ Meteor Client and Baritone are bundled in the pack (see `NOTICE.md`).
 | [Low On Fire](https://modrinth.com/project/RRxvWKNC) | 26.3 |
 | [rE-oCd](https://modrinth.com/project/lkoaSYls) | 1.6 |
 | [Redstone Tweaks](https://modrinth.com/project/RvfAlf4Z) | 2.5.6 |
-| [Translations for Sodium](https://modrinth.com/project/yfDziwn1) | v8.18.0 |
+| [Translations for Sodium](https://modrinth.com/project/yfDziwn1) | v8.19.0 |
 
 ## Shader packs
 

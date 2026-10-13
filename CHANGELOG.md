@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Updated JEI 30.42.0.236, Voxy Server Side 0.18.0, Translations for Sodium v8.19.0 and Mod Menu Helper (from Fabulously Optimized 14.1.1).
+- `tools/update_mods.py` also updates resource packs and shader packs, and never picks a version older than the installed one.
+
 ## 0.1.3 (10 October 2026)
 
 - Updated Fabric Language Kotlin 1.14.2, Particle Rain 4.0.2 and Polytone 26.2-6.8.6.

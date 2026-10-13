@@ -60,7 +60,7 @@ The pack is kept as a Prism Launcher instance. The scripts in `tools/` convert t
 | --- | --- |
 | `export_pack.py` | Writes the mod list, the overrides and the `.mrpack` file. |
 | `install_mrpack.py` | Installs a `.mrpack` file into an empty folder and checks every download. |
-| `update_mods.py` | Updates mods to their newest Modrinth version. |
+| `update_mods.py` | Updates mods and packs to their newest Modrinth version. |
 | `hotkeys.py` | Stores the pack version and the hotkey table. It builds the hotkey menu and the hotkey page. |
 | `make_ui_pack.py` | Builds the red interface resource pack. |
 | `health_check.py` | Checks files, configs, hotkeys, logs and available updates. |

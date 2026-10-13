@@ -531,19 +531,19 @@
       "fileSize": 762557
     },
     {
-      "path": "mods/jei-26.2-fabric-30.39.0.233.jar",
+      "path": "mods/jei-26.2-fabric-30.42.0.236.jar",
       "hashes": {
-        "sha1": "049f8ac5dd4f7c3ab66e90300cbeaacb5a503c8f",
-        "sha512": "ef6829662d49388550fefcd4f0ddebba067042f583aa50d91b53be16ff808d95aa95a22828c24729308d05077c14fc18778ca41cba0100d70fee348da8161ba8"
+        "sha1": "9f120d7d07d7e20e09a9fdb0044dd866e33ca142",
+        "sha512": "f6638adc5265247160437f98c2d52dbc4478a5a76ee30ebd7ec16fb2f8a76795e35cbaedaa75f92ae7b24c188a3e769416c863c927d4f9ce0b7f510ace889c14"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/u6dRKJwZ/versions/SXeM2IjU/jei-26.2-fabric-30.39.0.233.jar"
+        "https://cdn.modrinth.com/data/u6dRKJwZ/versions/tFOO9moR/jei-26.2-fabric-30.42.0.236.jar"
       ],
-      "fileSize": 2368482
+      "fileSize": 2400936
     },
     {
       "path": "mods/lambdynamiclights-4.12.4+26.2.jar",
@@ -1088,17 +1088,17 @@
     {
       "path": "mods/voxy-server-side-fabric.jar",
       "hashes": {
-        "sha1": "f63196831ac0aa03f9b77be807b2f5bb8e418fc4",
-        "sha512": "1936e9341b94b294b978bdf5bc7cde536a37b04f7a08c3d5c5aa7ce0f8c9c8287b669cd7350eee1499332214221f63e786550a33ffdd78aaf611f8fffe094cdf"
+        "sha1": "c3b32d7152f4a54ca8fcb92d61c60ca5478ecc8c",
+        "sha512": "bd95917316318e1b92604489fa14352ec6e6f5f706634898b97aa1e0f9d01ecff092dee9117ab94844d9d1792095928999c7cfe5f1cc5749d3aad6fd921d392d"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/84zcagOb/versions/oUpq4mJx/voxy-server-side-fabric.jar"
+        "https://cdn.modrinth.com/data/84zcagOb/versions/iMQOjynx/voxy-server-side-fabric.jar"
       ],
-      "fileSize": 8771177
+      "fileSize": 9198873
     },
     {
       "path": "mods/voxy-0.2.19-beta.jar",
@@ -1223,17 +1223,17 @@
     {
       "path": "resourcepacks/SodiumTranslations.zip",
       "hashes": {
-        "sha1": "b05f2076a16143b8b17375fd1c3b258353058124",
-        "sha512": "f79293212014fb08fb8dfbd5b5e06cf418b7c0d2b6a1415364503bf63f952e6c2bd0661983b35473514de59e3f018b7c1d6e248c8935d66e170430f8f2fe7421"
+        "sha1": "f229c5bab9049126090ca0b116795d0b54c558b4",
+        "sha512": "99e23756d67ff06716f67c9caab29a914a1d33420503fd195f7b4a59ebb12e81747d81ba1d384baa7c6fda1577d6fc7171394af7a896b93d1bf5faf5afd75b4c"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/yfDziwn1/versions/ZJKZpEl8/SodiumTranslations.zip"
+        "https://cdn.modrinth.com/data/yfDziwn1/versions/JeuAsdpW/SodiumTranslations.zip"
       ],
-      "fileSize": 286513
+      "fileSize": 286582
     },
     {
       "path": "shaderpacks/photon_v1.3b.zip",
