@@ -19,7 +19,7 @@ RedstoneExMachina runs on Fabric. It is based on [Fabulously Optimized](https://
 - **Information on screen.** MiniHUD shows your position, your position inside the chunk, your facing, yaw and pitch. It also shows the block you look at, with its states and its comparator output. TweakerMore writes comparator levels and hopper cooldowns directly on the blocks.
 - **Look.** Photon shaders (press `K`), Redstone Tweaks and a red interface with redstone block buttons.
 
-<p align="center"><img src="docs/screenshots/hud.png" alt="MiniHUD and minimap" width="720"></p>
+<p align="center"><img src="docs/screenshots/redstone.png" alt="MiniHUD showing a redstone wire" width="720"></p>
 
 ## Install
 
