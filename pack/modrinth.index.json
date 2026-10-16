@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "0.1.4",
+  "versionId": "0.1.5",
   "name": "RedstoneExMachina",
   "summary": "Fabric 26.2 pack for technical redstone players, based on Fabulously Optimized.",
   "files": [
@@ -141,19 +141,19 @@
       "fileSize": 98554
     },
     {
-      "path": "mods/chatanimation-fabric-1.3.4+mc26.2.jar",
+      "path": "mods/chatanimation-fabric-1.3.5+mc26.2.jar",
       "hashes": {
-        "sha1": "1f92cadd8486b05aa155aeee93a287d3264b96c8",
-        "sha512": "262903b4e6d8966166619c436e11530db28bb1f26cb9bbed920c2bd017837f326282dcab22417a3730c99339e3f2d6c937600eb4b6814c7f5003d41001aa224c"
+        "sha1": "4075ac3a9c1092b6a7f22626f74b1ae5f7f28032",
+        "sha512": "061522f4bd9567aec989f2d6b467f5aafe4dc6d468279ee449a9400fb504b4864b97ae4f72cc0e39d575cb361918a3522a846d437545e383965bf77595376e99"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/DnNYdJsx/versions/r6EvRQsL/chatanimation-fabric-1.3.4%2Bmc26.2.jar"
+        "https://cdn.modrinth.com/data/DnNYdJsx/versions/N8q85fiD/chatanimation-fabric-1.3.5%2Bmc26.2.jar"
       ],
-      "fileSize": 432262
+      "fileSize": 433523
     },
     {
       "path": "mods/chesttracker-2.8.4+26.2.jar",
@@ -321,19 +321,19 @@
       "fileSize": 663905
     },
     {
-      "path": "mods/entity_model_features-3.3.11-26.2-fabric.jar",
+      "path": "mods/entity_model_features-3.3.12-26.2-fabric.jar",
       "hashes": {
-        "sha1": "adac13c5fd8b82819830387cf9c8d8f405bd0ca5",
-        "sha512": "7e3d6c76033c60a01f6d89a7d6ee07436f08a1f63ed78f93d8d1623d0f49b6f229bcdc2f24d9e7b70c92fda6179339980f65702132b57aa5f241c006f2113903"
+        "sha1": "34747e7aaf3b0b9f5b9edc3b9fd57fa0b545b531",
+        "sha512": "538944a63c2dab5f39d2468a7c977f65c45ed536b8214976dab5a30cc944879fa0bfc3f960233031e4b80f6940edb71edacd17e8949cca7e3ff6bcdf097870ff"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/4I1XuqiY/versions/tgEvvPhr/entity_model_features-3.3.11-26.2-fabric.jar"
+        "https://cdn.modrinth.com/data/4I1XuqiY/versions/hyDf8pNd/entity_model_features-3.3.12-26.2-fabric.jar"
       ],
-      "fileSize": 664593
+      "fileSize": 665507
     },
     {
       "path": "mods/entityculling-fabric-1.11.3-mc26.2.jar",
@@ -351,19 +351,19 @@
       "fileSize": 1508596
     },
     {
-      "path": "mods/entity_texture_features-7.2.5-26.2-fabric.jar",
+      "path": "mods/entity_texture_features-7.2.6-26.2-fabric.jar",
       "hashes": {
-        "sha1": "475bc0d85ba188ff4e30ee54700b96bb8b33f846",
-        "sha512": "0610cb90020e3c38b6a23b1bb6a0e2b819f15c6f5a90dbf10ede8cf955499b48699dc328e91c22fd89a0a126bdc0ce60a6a3fd4f355d5613b9b3d32ee20af6f5"
+        "sha1": "83e1ae7d1fdd64ce3dee8cd25c1cdee6b6d6570d",
+        "sha512": "34a8365d78cd81cb3d268c4e8d702bb3fb3eeab4b9ea96c798d9f45772110a169a6e37856990eb50a8018e68b6708f2147ce0971a1988007519674e697909ce6"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/BVzZfTc1/versions/b9RlCI9F/entity_texture_features-7.2.5-26.2-fabric.jar"
+        "https://cdn.modrinth.com/data/BVzZfTc1/versions/p667cMa5/entity_texture_features-7.2.6-26.2-fabric.jar"
       ],
-      "fileSize": 792861
+      "fileSize": 793181
     },
     {
       "path": "mods/fabric-api-0.161.0+26.2.jar",
@@ -531,17 +531,17 @@
       "fileSize": 762557
     },
     {
-      "path": "mods/jei-26.2-fabric-30.42.0.236.jar",
+      "path": "mods/jei-26.2-fabric-30.42.0.237.jar",
       "hashes": {
-        "sha1": "9f120d7d07d7e20e09a9fdb0044dd866e33ca142",
-        "sha512": "f6638adc5265247160437f98c2d52dbc4478a5a76ee30ebd7ec16fb2f8a76795e35cbaedaa75f92ae7b24c188a3e769416c863c927d4f9ce0b7f510ace889c14"
+        "sha1": "a37eeb0b1b6a6a066ab4164fb1dd765eb1747ce3",
+        "sha512": "097e656739911f1ef7ee247e1f70542d52fb396d765d09cb3861f484fc1ee43547d751a6b38c23bca656e68112befd5eeb8b9ac0818f252f36aae0a05fc9d559"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/u6dRKJwZ/versions/tFOO9moR/jei-26.2-fabric-30.42.0.236.jar"
+        "https://cdn.modrinth.com/data/u6dRKJwZ/versions/UthTNlbm/jei-26.2-fabric-30.42.0.237.jar"
       ],
       "fileSize": 2400936
     },
@@ -846,19 +846,19 @@
       "fileSize": 254973
     },
     {
-      "path": "mods/polytone-26.2-6.8.6-fabric.jar",
+      "path": "mods/polytone-26.2-6.9.1-fabric.jar",
       "hashes": {
-        "sha1": "d655a21b62c72d525998bcc8867a1d713b6af7b9",
-        "sha512": "c00da4ede96e332fcfe2d47bba907eead3731fb33692afc98ef49108e0eaa822e07a2c9e6a3c4d0effa5fd791ee801f21335993c3afa94d7e70d85ef302af9b4"
+        "sha1": "851215a690830f0389c7ba6097bd38b531b1a6aa",
+        "sha512": "e42bb28d0b63347f0528af123dc577d69be5c59be2320ce6c66cb12978a978fc2770b3899c911c1cb1c40818881837d6b4d47bd4a9339373fa678672d1a4ba55"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/3qAYkBMB/versions/nGj7e92E/polytone-26.2-6.8.6-fabric.jar"
+        "https://cdn.modrinth.com/data/3qAYkBMB/versions/9nvv3S2q/polytone-26.2-6.9.1-fabric.jar"
       ],
-      "fileSize": 1667235
+      "fileSize": 1862876
     },
     {
       "path": "mods/puzzle-fabric-2.3.1+26.2.jar",
@@ -1088,17 +1088,17 @@
     {
       "path": "mods/voxy-server-side-fabric.jar",
       "hashes": {
-        "sha1": "c3b32d7152f4a54ca8fcb92d61c60ca5478ecc8c",
-        "sha512": "bd95917316318e1b92604489fa14352ec6e6f5f706634898b97aa1e0f9d01ecff092dee9117ab94844d9d1792095928999c7cfe5f1cc5749d3aad6fd921d392d"
+        "sha1": "6c3d3a0f70a71db7d4c6a293f750a9889c579a57",
+        "sha512": "3b7beadf372e75a0dffe585233ec2e1bf57c1c650c3af98917e9a5b105e839af187ca292de5704e208cd0de245d6de24287bb80fcc311b8578a397999573469c"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/84zcagOb/versions/iMQOjynx/voxy-server-side-fabric.jar"
+        "https://cdn.modrinth.com/data/84zcagOb/versions/9ZFJ0xxO/voxy-server-side-fabric.jar"
       ],
-      "fileSize": 9198873
+      "fileSize": 9302850
     },
     {
       "path": "mods/voxy-0.2.19-beta.jar",

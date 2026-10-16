@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.5 (16 October 2026)
+
+- Updated ChatAnimation 1.3.5, Entity Model Features 3.3.12, Entity Texture Features 7.2.6, JEI 30.42.0.237, Polytone 26.2-6.9.1 and Voxy Server Side 0.19.0.
+
 ## 0.1.4 (13 October 2026)
 
 - Updated JEI 30.42.0.236, Voxy Server Side 0.18.0, Translations for Sodium v8.19.0 and Mod Menu Helper (from Fabulously Optimized 14.1.1).
